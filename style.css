@@ -1,4 +1,5 @@
 header{
+  box-sizing: border-box;
   text-align: center;
   background: rgb(49, 40, 40);
   padding: 20px;
@@ -7,7 +8,7 @@ header{
   font-size: 25px;
 }
 img{
-    margin-left: 375px;
+    margin-left: 820px;
     max-width: 250px;
     margin-top: 30px;
     height: 300px;
@@ -26,10 +27,10 @@ body{
 }
 
 article{
-  
+  box-sizing: border-box;
   padding: 30px;
   max-width: 350px;
-  margin-left: 350px;
+  margin-left: 820px;
 }
 
 ol{
