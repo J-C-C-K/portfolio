@@ -1,3 +1,4 @@
+h/*Header changing aspects to make it look better */ 
 header{
   box-sizing: border-box;
   text-align: center;
@@ -7,19 +8,23 @@ header{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
 }
+/*class for my image */
 IMG.displayed{
     display: block;
     max-width: 250px;
     margin-left: auto;
     margin-right: auto;
-    
+    height: auto;
     padding: 20px;
     
 }
+/*Changing link color for certain actions */
+a:link    { color: red ;  }
+a:visited { color: pink;   }
+a:hover   { color: green; }
+a:active  { color: blue;  }
 
-
-
-
+/*Changing body font, and background color */
 body{
   
 
@@ -28,7 +33,7 @@ body{
   color: rgb(102, 88, 88);
  
 }
-
+/* Trying to make the article box centered in the page. */
 article{
   box-sizing: border-box;
 
@@ -38,14 +43,17 @@ article{
   margin-right: auto;
 }
 
+/* styling my ol to make the numbers go inside */
 ol{
   list-style-position: inside;
 }
+/*styling my ul to make the dots go inside */
 ul{
 
   list-style-position: inside;
 }
 
+/*footer*/
 footer{
   text-align: center;
   padding: 20px;
